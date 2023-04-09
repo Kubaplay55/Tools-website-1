@@ -4,5 +4,5 @@ xhttp.onreadystatechange = function() {
         document.getElementById("top-bar").innerHTML = this.responseText;
     }
 };
-xhttp.open("GET", "/top-bar.html", true);
+xhttp.open("GET", "top-bar.html", true);
 xhttp.send();
